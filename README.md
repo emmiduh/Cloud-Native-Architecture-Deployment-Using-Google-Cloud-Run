@@ -34,24 +34,29 @@ Key features:
 ```bash
 git clone https://github.com/emmiduh/Cloud-Native-Architecture-Deployment-Using-Google-Cloud-Run.git
 cd Cloud-Native-Architecture-Deployment-Using-Google-Cloud-Run
+```
 
 ### 2. Initialize Terraform
 ```bash
 terraform init
+```
 
 ### 3. Review and modify variables
 Edit variables.tf or provide values via:
 ```bash
 terraform apply -var="project_id=your-project-id"
+```
 
 ### 4. Apply the configuration
 ```bash
 terraform apply
+```
 
 ## Cleanup
 Run:
 ``` bash
 terraform destroy
+```
 
 ## Techinical References
 
